@@ -6,13 +6,27 @@ Upload a chest X-ray, get a structured radiology report. Built with a Vision Tra
 
 ## Screenshots
 
+## Screenshots
 
+**Home — Upload your chest X-ray and optionally enter a clinical indication**
 ![Home](assets/screenshots/home.png)
+
+**Upload — Select any PNG or JPEG chest X-ray from your device**
 ![Upload](assets/screenshots/upload.png)
+
+**X-Ray — Preview the uploaded image before generating the report**
 ![X-Ray](assets/screenshots/x-ray.png)
+
+**Processing — AI analyses the image and retrieves similar cases in seconds**
 ![Processing](assets/screenshots/processing.png)
+
+**Report — Structured report with Findings, Impression and Recommendations**
 ![Report](assets/screenshots/report.png)
+
+**Similar Cases — See the top matching X-rays retrieved from 7,430 training cases with similarity scores**
 ![Similar Cases](assets/screenshots/similar-cases.png)
+
+**PDF Export — Download the report as a professionally formatted PDF**
 ![PDF](assets/screenshots/pdf.png)
 ---
 
