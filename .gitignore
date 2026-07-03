@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+data/images/ 
+data/reports/ 
+data/features.pt 
+data/faiss_index.bin 
+data/index_mapping.csv 
+data/dataset_index.csv 
+mlruns/ 
+models/ 
