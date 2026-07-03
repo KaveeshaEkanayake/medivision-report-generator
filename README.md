@@ -8,25 +8,25 @@ Upload a chest X-ray, get a structured radiology report. Built with a Vision Tra
 
 ## Screenshots
 
-**Home — Upload your chest X-ray and optionally enter a clinical indication**
+**Home - Upload your chest X-ray and optionally enter a clinical indication**
 ![Home](assets/screenshots/home.png)
 
-**Upload — Select any PNG or JPEG chest X-ray from your device**
+**Upload - Select any PNG or JPEG chest X-ray from your device**
 ![Upload](assets/screenshots/upload.png)
 
-**X-Ray — Preview the uploaded image before generating the report**
+**X-Ray - Preview the uploaded image before generating the report**
 ![X-Ray](assets/screenshots/x-ray.png)
 
-**Processing — AI analyses the image and retrieves similar cases in seconds**
+**Processing - AI analyses the image and retrieves similar cases in seconds**
 ![Processing](assets/screenshots/processing.png)
 
-**Report — Structured report with Findings, Impression and Recommendations**
+**Report - Structured report with Findings, Impression and Recommendations**
 ![Report](assets/screenshots/report.png)
 
-**Similar Cases — See the top matching X-rays retrieved from 7,430 training cases with similarity scores**
+**Similar Cases - See the top matching X-rays retrieved from 7,430 training cases with similarity scores**
 ![Similar Cases](assets/screenshots/similar-cases.png)
 
-**PDF Export — Download the report as a professionally formatted PDF**
+**PDF Export - Download the report as a professionally formatted PDF**
 ![PDF](assets/screenshots/pdf.png)
 ---
 
@@ -35,16 +35,16 @@ Upload a chest X-ray, get a structured radiology report. Built with a Vision Tra
 1. ViT extracts a 768-dim feature vector from the uploaded X-ray
 2. FAISS searches 7,430 training cases for the most visually similar X-rays
 3. Their radiology reports are retrieved as context
-4. Gemini 2.5 Flash generates a structured report — Findings, Impression, Recommendations
+4. Gemini 2.5 Flash generates a structured report - Findings, Impression, Recommendations
 
 ---
 
 ## Stack
-- **Vision** — ViT (google/vit-base-patch16-224-in21k)
-- **Retrieval** — FAISS
-- **Generation** — Gemini 2.5 Flash
-- **Dataset** — IU X-Ray (NLM Open-i), 7,430 chest X-rays
-- **UI** — Streamlit
+- **Vision** - ViT (google/vit-base-patch16-224-in21k)
+- **Retrieval** - FAISS
+- **Generation** - Gemini 2.5 Flash
+- **Dataset** - IU X-Ray (NLM Open-i), 7,430 chest X-rays
+- **UI** - Streamlit
 
 ---
 
@@ -69,8 +69,8 @@ streamlit run src/app.py
 ---
 
 ## Related projects
-- [Medical Research Assistant](https://medical-research-assistant.streamlit.app/) — RAG with FAISS + Sentence-BERT + Gemini
-- [Stroke Prediction ML](https://github.com/KaveeshaEkanayake/stroke-prediction-ml) — Healthcare classification with scikit-learn
+- [Medical Research Assistant](https://medical-research-assistant.streamlit.app/) - RAG with FAISS + Sentence-BERT + Gemini
+- [Stroke Prediction ML](https://github.com/KaveeshaEkanayake/stroke-prediction-ml) - Healthcare classification with scikit-learn
 
 ---
 
