@@ -5,7 +5,7 @@ Upload a chest X-ray, get a structured radiology report. Built with a Vision Tra
 ---
 
 ## Screenshots
-## Screenshots
+
 
 ![Home](assets/screenshots/home.png)
 ![Upload](assets/screenshots/upload.png)
