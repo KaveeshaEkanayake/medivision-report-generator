@@ -5,12 +5,15 @@ Upload a chest X-ray, get a structured radiology report. Built with a Vision Tra
 ---
 
 ## Screenshots
+## Screenshots
 
-![Home](assets/screenshots/1-home.png)
-![Report](assets/screenshots/5-report.png)
-![Similar Cases](assets/screenshots/6-similar-cases.png)
-![PDF](assets/screenshots/7-pdf.png)
-
+![Home](assets/screenshots/home.png)
+![Upload](assets/screenshots/upload.png)
+![X-Ray](assets/screenshots/x-ray.png)
+![Processing](assets/screenshots/processing.png)
+![Report](assets/screenshots/report.png)
+![Similar Cases](assets/screenshots/similar-cases.png)
+![PDF](assets/screenshots/pdf.png)
 ---
 
 ## How it works
