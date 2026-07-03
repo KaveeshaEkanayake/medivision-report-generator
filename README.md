@@ -73,5 +73,12 @@ streamlit run src/app.py
 - [Stroke Prediction ML](https://github.com/KaveeshaEkanayake/stroke-prediction-ml) - Healthcare classification with scikit-learn
 
 ---
+## Dataset Citation
+
+IU X-Ray dataset provided by the National Library of Medicine, National Institutes of Health, Bethesda, MD, USA.
+
+> Demner-Fushman D, et al. Preparing a collection of radiology examinations for distribution and retrieval. JAMIA, 2015. [pubmed.ncbi.nlm.nih.gov/26133894](https://pubmed.ncbi.nlm.nih.gov/26133894/)
+
+---
 
 ⚠️ *For educational purposes only. Not for clinical use.*
